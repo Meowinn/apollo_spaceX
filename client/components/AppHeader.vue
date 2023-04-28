@@ -1,7 +1,6 @@
 <template>
-    <header class="header">
-
-        <v-app-bar :elevation="5" class='pa-5'>
+    <header >
+        <v-app-bar :elevation="5" class='pa-5 header text-white'>
             <v-app-bar-title>
                 <h2>
                 <v-icon icon="mdi-vuetify" /> 
@@ -15,19 +14,22 @@
                 </li>
             </ul>
             </v-app-bar>
-
-        
     </header>
-    
     </template>
     
-    <script>
-    
-    </script>
-
     <style>
+        .header {
+            background-image: url('../static/banner2.png') !important;
+        }
+
         li {
             list-style: none;
         }
-        
+
+        a:link, a:visited {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: white;
+            text-decoration: none ;
+        }
         </style>

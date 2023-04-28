@@ -4,7 +4,7 @@
         "prepare": "husky install",
         "build": "nuxt build",
         "deploy": "gh-pages -d dist",
-        "predeploy": "npm run generate",
+        "predeploy": "pnpm run generate",
         "dev": "nuxt dev",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
